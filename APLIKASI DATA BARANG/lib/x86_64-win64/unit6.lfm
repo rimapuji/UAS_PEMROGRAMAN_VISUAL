@@ -1,0 +1,9 @@
+object Form6: TForm6
+  Left = 557
+  Height = 300
+  Top = 449
+  Width = 400
+  Caption = 'laporan'
+  DesignTimePPI = 120
+  LCLVersion = '2.2.6.0'
+end

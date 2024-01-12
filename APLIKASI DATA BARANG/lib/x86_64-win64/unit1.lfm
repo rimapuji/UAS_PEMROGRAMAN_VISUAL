@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 404
+  Height = 445
+  Top = 335
+  Width = 399
+  Caption = 'Login Aplikasi'
+  ClientHeight = 445
+  ClientWidth = 399
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Edit1: TEdit
+    Left = 64
+    Height = 28
+    Top = 208
+    Width = 277
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 17
+    Top = 176
+    Width = 68
+    Caption = 'Username'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Poppins Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Height = 17
+    Top = 264
+    Width = 66
+    Caption = 'Password'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Poppins Medium'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 64
+    Height = 28
+    Top = 296
+    Width = 277
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 64
+    Height = 31
+    Top = 352
+    Width = 278
+    Caption = 'Login'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 156
+    Height = 31
+    Top = 32
+    Width = 74
+    Caption = 'LOGIN'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 56
+    Height = 31
+    Top = 64
+    Width = 286
+    Caption = 'APLIKASI DATA BARANG'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 116
+    Height = 31
+    Top = 96
+    Width = 166
+    Caption = 'TOKO BEAUTY'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
